@@ -1,0 +1,130 @@
+body {
+    font-family: "Roboto", sans-serif;
+ background-color: #F8F3F3;
+ margin: 0;
+ padding: 0;
+     }
+ .button{
+   background-color:#EDEAC9
+ }
+ 
+     header {
+  background-color: #EDEAC9;
+ color: #fff;
+ padding: 0px;
+ text-align: left;
+     }
+ 
+     nav {
+ background-color: #EDEAC9;
+  color: #fff;
+   padding: 10px;
+ text-align: right;
+ Font-size: 20px
+     }
+     
+     nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 20px;
+       width: 33%;
+       text-align: center;
+     }
+ 
+     nav ul li {
+       display: inline-block;
+       margin-right: 10px;
+        width: 33%;
+     }
+ 
+     nav ul li a {
+       color: #fff;
+       text-decoration: none;
+        width: 33%;
+     }
+ 
+     main {
+       padding: 20px;
+       text-align: center left;
+      
+     }
+ h2{font-family: indie flower;
+   font-size: 60px
+ }
+ .responsive{width: 100%;
+ height:auto
+ }
+ .my-skills {
+       padding: 20px;
+       background-color: #F8F3F3;
+   text-align: center;
+     }
+ 
+     .flexbox {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       gap: 15px;
+     }
+ .work-grid {
+   display: grid;
+   row-gap: 50px;
+   grid-template-columns: auto auto auto;
+   background-color: #F8F3F3;
+   padding: 10px;
+   column-gap: 50px;
+ 
+ }
+ 
+     footer {
+       background-color:#EDEAC9 ;
+       color: black;
+       padding: 40px;
+       text-align: right;
+      
+     }
+ footer {
+   display: flex;
+   justify-content: space-between;
+    Font-size: 18px
+ }
+  .my-work {
+       text-align: center;
+     }
+ 
+     .work-grid-child {
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+       gap: 20px;
+       align-items: center;
+       margin-top: 20px;
+     }
+ .IMAGE{
+   width: 200px;
+   height: 200px;
+   background-color: green;
+   grid-column: 1fr;
+   
+ }
+ 
+ 
+     .work-grids img {
+       max-width: 100%;
+     }
+ @media (max-width: 767px) {
+   .flex-container {
+     flex-direction: column;
+   }
+ 
+   .flex-item {
+     width: 100%;
+   }
+ 
+   .grid-container {
+     grid-template-areas:
+       "header"
+       "content"
+       "footer";
+     grid-template-rows: auto 1fr auto;
+     grid-template-columns: 1fr;
+   }

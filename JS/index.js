@@ -1,0 +1,1 @@
+console.log("Your index.js fole is loaded correctly!");
